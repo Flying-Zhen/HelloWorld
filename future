@@ -1,5 +1,29 @@
-int main（）{
+#include<iostream>
+#include<list>
+#include<vector>
+#inclue<iterator>
+using namespace std;
 
+int main（）{
+  
+  vector<int> v;
+  
+  for(int i=0;i<10;i++){
+    
+    v.push_back(i);
+    v.push_back(i);
+    
+  }
+  
+  list<int> a;
+  
+  unique_copy(v.begin(),v.end(),insertor(a.begin());
+  
+  while(list<int>::iterator it=a.begin();
+        it!=a.end();i++){
+            cout<<*it<<" ";
+        };
+  
   return 0;
 
 }
